@@ -1,0 +1,109 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{analytics_angular}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Google}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{G1}
+  \strng{fullhash}{G1}
+  \field{labelyear}{2016}
+  \field{sortinit}{G}
+  \field{title}{Google Analytics zu angular, ember und Backbone}
+  \verb{url}
+  \verb https://www.google.com/trends/explore?hl=en-US#q=ember.js%2C%20angularj
+  \verb s%2C%20backbone.js&date=1%2F2011%2061m&cmpt=q&tz=Etc%2FGMT-2
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{funnyant_mvc_comparison}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McKeachie}{M.}%
+     {Craig}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MC1}
+  \strng{fullhash}{MC1}
+  \field{labelyear}{2013}
+  \field{sortinit}{M}
+  \field{title}{Choosing a JavaScript MVC Framework}
+  \verb{url}
+  \verb http://www.funnyant.com/choosing-javascript-mvc-framework/
+  \endverb
+  \field{year}{2013}
+\endentry
+
+\entry{nodejsroden}{book}{}
+  \list{publisher}{1}{%
+    {dpunkt.verlag}%
+  }
+  \field{labelyear}{2012}
+  \field{sortinit}{N}
+  \field{title}{Node.js \& Co}
+  \field{year}{2012}
+\endentry
+
+\entry{mvc}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Oracle}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{O1}
+  \strng{fullhash}{O1}
+  \field{labelyear}{2016}
+  \field{sortinit}{O}
+  \field{title}{Model-View-Controller (MVC 1.0) Specification}
+  \verb{url}
+  \verb https://java.net/projects/mvc-spec/pages/Home
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{infrastructure_comparison}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Shaked}{S.}%
+     {Uri}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SU1}
+  \strng{fullhash}{SU1}
+  \field{labelyear}{2016}
+  \field{sortinit}{S}
+  \field{title}{AngularJS vs. Backbone.js vs. Ember.js}
+  \verb{url}
+  \verb https://www.airpair.com/js/javascript-framework-comparison#6-angularjs
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
