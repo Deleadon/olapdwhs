@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.12)  2 MAY 2016 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.12)  2 MAY 2016 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,16 +930,253 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks20
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2015/03/16 v4.15 (NLCT)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count229
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
+Package: mfirstuc 2015/02/03 v1.10 (NLCT)
+\@glsmfirst=\toks23
+\@glsmrest=\toks24
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2014/06/10 v2.22 (NLCT)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip73
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks25
+\ex@=\dimen122
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen123
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count230
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count231
+\leftroot@=\count232
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count233
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip11
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks26
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks27
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks28
+\multlinegap=\skip74
+\multlinetaggap=\skip75
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count274
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2013/08/29 v2.17 (NLCT)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count275
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count276
+\FP@xia=\count277
+\FP@xib=\count278
+\FP@xfa=\count279
+\FP@xfb=\count280
+\FP@rega=\count281
+\FP@regb=\count282
+\FP@regs=\count283
+\FP@times=\count284
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count285
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks30
+\@dtl@tmpcount=\count286
+\dtl@tmplength=\skip76
+\dtl@sortresult=\count287
+\@dtl@numgrpsepcount=\count288
+\@dtl@datatype=\count289
+\dtl@codeA=\count290
+\dtl@codeB=\count291
+\@dtl@foreach@level=\count292
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2015/03/23 v1.2 (NLCT) Track Languages
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries-german/glossaries-germ
+an.ldf
+File: glossaries-german.ldf 2014/11/23 v1.0
+)
+\gls@level=\count293
+\@gls@tmpb=\toks31
+\gls@tmplen=\skip77
+\glskeylisttok=\toks32
+\glslabeltok=\toks33
+\glsshorttok=\toks34
+\glslongtok=\toks35
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2013/11/14 v4.0 (NLCT)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2015/02/03 v4.13 (NLCT)
+\glslistdottedwidth=\skip78
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2013/11/14 v4.0 (NLCT)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count294
+\LTcapwidth=\dimen131
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count295
+\LT@rows=\count296
+\c@LT@tables=\count297
+\c@LT@chunks=\count298
+\LT@p@ftn=\toks36
+)
+Class scrreprt Info: longtable captions redefined on input line 43.
+\glsdescwidth=\skip83
+\glspagelistwidth=\skip84
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2013/11/14 v4.0 (NLCT)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count299
+\ST@wd=\dimen132
+\ST@rightskip=\skip85
+\ST@leftskip=\skip86
+\ST@parfillskip=\skip87
+\ST@pageleft=\dimen133
+\ST@headht=\dimen134
+\ST@tailht=\dimen135
+\ST@pagesofar=\dimen136
+\ST@pboxht=\dimen137
+\ST@lineht=\dimen138
+\ST@stretchht=\dimen139
+\ST@prevht=\dimen140
+\ST@toadd=\dimen141
+\ST@dimen=\dimen142
+\ST@pbox=\box35
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2015/02/03 v4.13 (NLCT)
+\glstreeindent=\skip88
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-\@nomenclaturefile=\write5
-\openout5 = `T2000.nlo'.
+\glswrite=\write5
+\glo@main@file=\write6
+\openout6 = `T2000.glo'.
 
-
-Writing nomenclature file T2000.nlo
+Package glossaries Info: Writing glossary file T2000.glo on input line 114.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
 File: ngerman.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
@@ -951,8 +1188,7 @@ File: german.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./T2000.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux)
-(./Inhalt/abstract.aux))
+(./T2000.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux))
 \openout1 = `T2000.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
@@ -988,15 +1224,15 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 441.01773pt, 71.13188pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=441.01773pt
-* \textheight=674.33032pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-26.78673pt
+* \topmargin=-41.0131pt
 * \headheight=18.125pt
 * \headsep=21.75pt
 * \topskip=12.0pt
@@ -1016,17 +1252,17 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count229
-\scratchdimen=\dimen122
-\scratchbox=\box29
-\nofMPsegments=\count230
-\nofMParguments=\count231
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count232
-\MPscratchDim=\dimen123
-\MPnumerator=\count233
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count300
+\scratchdimen=\dimen143
+\scratchbox=\box36
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen144
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1071,8 +1307,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\big@size=\dimen124
-\c@lstlisting=\count267
+\c@lstlisting=\count306
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1109,7 +1344,7 @@ File: Bilder/logo_dhbw.jpg Graphic file (type jpg)
 Package pdftex.def Info: Bilder/logo_dhbw.jpg used on input line 11.
 (pdftex.def)             Requested size: 173.92935pt x 88.65097pt.
 
-Overfull \hbox (12.4625pt too wide) in paragraph at lines 8--12
+Overfull \hbox (26.68887pt too wide) in paragraph at lines 8--12
 []  []   [] 
  []
 
@@ -1157,6 +1392,8 @@ File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
 
+\openout5 = `T2000.ist'.
+
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Bilde
@@ -1186,33 +1423,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
 
 
-]
-\openout2 = `Inhalt/abstract.aux'.
-
- (./Inhalt/abstract.tex) [2
-
-
-
 ] (./T2000.toc)
-\tf@toc=\write6
-\openout6 = `T2000.toc'.
+\tf@toc=\write7
+\openout7 = `T2000.toc'.
 
 
 No file T2000.nls.
-[3
+[2
 
 
 ] (./T2000.lof)
-\tf@lof=\write7
-\openout7 = `T2000.lof'.
+\tf@lof=\write8
+\openout8 = `T2000.lof'.
 
- [4
+ [3
 
 ] (./T2000.lot)
-\tf@lot=\write8
-\openout8 = `T2000.lot'.
+\tf@lot=\write9
+\openout9 = `T2000.lot'.
 
- [5
+ [4
 
 ]
 Kapitel 1.
@@ -1237,67 +1467,43 @@ Class scrreprt Warning: \float@addtolists detected!
 Kapitel 2.
 [2
 
-] [3] [4] [5]
+]
 Kapitel 3.
+[3
 
-Overfull \hbox (3.0972pt too wide) in paragraph at lines 170--171
-\T1/ppl/m/n/12 Dieses Ka-pi-tel un-ter-sucht die für einen In-ter-net of Things
-, Connec-ted Cars-Showcase
- []
-
-[6
-
-] [7]
-<Quellen/Google_Trends_angular_und_co.png, id=61, 817.0525pt x 245.91875pt>
-File: Quellen/Google_Trends_angular_und_co.png Graphic file (type png)
-
-<use Quellen/Google_Trends_angular_und_co.png>
-Package pdftex.def Info: Quellen/Google_Trends_angular_und_co.png used on input
- line 201.
-(pdftex.def)             Requested size: 426.79134pt x 128.45634pt.
- [8] [9 <./Quellen/Google_Trends_angular_und_co.png>] [10]
+]
 Kapitel 4.
-[11
+[4
 
 ]
-Kapitel 5.
-[12
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 238.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 153.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (2.23586pt too wide) in paragraph at lines 239--239
-[][]\T1/ppl/m/n/12 Shaked, Uri (2016). \T1/ppl/m/it/12 An-gu-lar-JS vs. Back-bo
--ne.js vs. Em-ber.js\T1/ppl/m/n/12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : $\T1/c
-mtt/m/n/12 https : / / www . airpair .
- []
+) [5
 
-[13
+]
 
-] (./T2000.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux)
-(./Inhalt/abstract.aux))
+Package glossaries Warning: No \printglossary or \printglossaries found.
+(Remove \makeglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+(./T2000.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'T2000.run.xml'.
 \openout1 = `T2000.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13679 strings out of 493089
- 215658 string characters out of 6134842
- 464382 words of memory out of 5000000
- 16876 multiletter control sequences out of 15000+600000
- 39964 words of font info for 77 fonts, out of 8000000 for 9000
+ 18329 strings out of 493089
+ 288748 string characters out of 6134842
+ 730515 words of memory out of 5000000
+ 21401 multiletter control sequences out of 15000+600000
+ 27151 words of font info for 53 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 47i,11n,56p,2048b,1425s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,9n,72p,1828b,1445s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texl
@@ -1309,17 +1515,16 @@ e/2015/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
-rw/palatino/uplri8a.pfb>
-Output written on T2000.pdf (19 pages, 403505 bytes).
+ist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/urw/palatino/uplri8a.pfb>
+Output written on T2000.pdf (10 pages, 318276 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

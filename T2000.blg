@@ -4,7 +4,6 @@ The top-level auxiliary file: T2000.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Inhalt/titelseite.aux
 A level-1 auxiliary file: Inhalt/erklaerung.aux
-A level-1 auxiliary file: Inhalt/abstract.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -23,7 +22,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 6 entries,
             6047 wiz_defined-function locations,
-            1154 strings with 8772 characters,
+            1153 strings with 8753 characters,
 and the built_in function-call counts, 13728 in all, are:
 = -- 500
 > -- 383
