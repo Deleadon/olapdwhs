@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.12)  3 MAY 2016 18:03
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.3)  3 MAY 2016 17:58
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,8 +1175,11 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 \glswrite=\write5
 \glo@main@file=\write6
+<<<<<<< HEAD
 \openout6 = `T2000.glo'.
 
+=======
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 Package glossaries Info: Writing glossary file T2000.glo on input line 104.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -1187,10 +1194,15 @@ File: german.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
+<<<<<<< HEAD
 
 (./T2000.aux (./Inhalt/titelseite.aux))
 \openout1 = `T2000.aux'.
 
+=======
+ (T2000.aux
+(Inhalt/titelseite.aux))
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
@@ -1212,8 +1224,12 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 110.
+<<<<<<< HEAD
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
+=======
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 *geometry* driver: auto-detecting
@@ -1320,6 +1336,7 @@ Package biblatex Warning: Data encoding is 'utf8'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'T2000.bbl' found.
+<<<<<<< HEAD
 (./T2000.bbl
 
 Package biblatex Warning: BibTeX reported the following issues
@@ -1331,6 +1348,14 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'keydata':
 (biblatex)                - Invalid format of field 'month'.
 
+=======
+(T2000.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'intellipaat':
+(biblatex)                - Invalid format of field 'month'.
+
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 )
 Package biblatex Info: Reference section=0 on input line 110.
 Package biblatex Info: Reference segment=0 on input line 110.
@@ -1358,7 +1383,11 @@ LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
 (Font)              using `T1/cmss/bx/n' instead on input line 16.
 
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 25.
+<<<<<<< HEAD
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 25.
@@ -1433,15 +1462,20 @@ Kapitel 4.
 [10
 
 ] [11]
+<<<<<<< HEAD
 Kapitel 5.
 [12
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 212.
+=======
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 210.
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+<<<<<<< HEAD
 Overfull \hbox (13.32759pt too wide) in paragraph at lines 214--214
 [][]\T1/ppl/m/n/12 Lehene, Cos-min (2013). \T1/ppl/m/it/12 Real-time ^^POLAP^^Q
  for Big Da-ta\T1/ppl/m/n/12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : $\T1/cmtt/m/
@@ -1449,6 +1483,22 @@ n/12 http : / / de . slideshare .
  []
 
 [13
+=======
+Overfull \hbox (21.29881pt too wide) in paragraph at lines 212--212
+[][]\T1/ppl/m/n/12 Nadella, Sa-t-ya (2016). \T1/ppl/m/it/12 Mi-cro-soft - Ana-l
+y-sis Ser-vices\T1/ppl/m/n/12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : $\T1/cmtt/m
+/n/12 https : / / technet . microsoft .$
+ []
+
+
+Overfull \hbox (17.3073pt too wide) in paragraph at lines 212--212
+[][]\T1/ppl/m/n/12 Whittles, Alex (2008). \T1/ppl/m/it/12 Semi-Additive Mea-su-
+res\T1/ppl/m/n/12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : $\T1/cmtt/m/n/12 http :
+ / / www . purplefrogsystems .$
+ []
+
+[12
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 
 ]
 
@@ -1469,6 +1519,7 @@ Package logreq Info: Writing requests to 'T2000.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  18303 strings out of 493089
  287678 string characters out of 6134842
  733463 words of memory out of 5000000
@@ -1492,6 +1543,29 @@ Output written on T2000.pdf (15 pages, 244155 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
+=======
+ 17894 strings out of 493698
+ 277392 string characters out of 3144416
+ 719254 words of memory out of 3000000
+ 20846 multiletter control sequences out of 15000+200000
+ 35746 words of font info for 71 fonts, out of 3000000 for 9000
+ 1029 hyphenation exceptions out of 8191
+ 57i,11n,72p,2242b,1417s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/cm-super/sfss1200.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/cm-super/sfss1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/cm-super/sfsx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-s
+uper/sfsx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx
+1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2074.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx2488.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/palatino/uplri8a.pfb>
+Output written on T2000.pdf (14 pages, 253351 bytes).
+PDF statistics:
+ 91 PDF objects out of 1000 (max. 8388607)
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

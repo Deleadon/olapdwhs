@@ -48,6 +48,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Comparison}{11}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {chapter}{\numberline {5}Summary}{12}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Literatur}{13}
+=======
+\contentsline {chapter}{\nonumberline Literatur}{12}
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46

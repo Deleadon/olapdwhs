@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex version 2.4 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,6 +16,7 @@
   {}
 \endgroup
 
+<<<<<<< HEAD
 \entry{wrembel}{book}{}
   \list{publisher}{1}{%
     {Robert Wremble, Christian Koncilia}%
@@ -88,6 +89,102 @@
   \endverb
   \field{month}{04}
   \field{year}{2008}
+=======
+\entry{intellipaat}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {chittora}{c.}%
+     {diwakar}{d.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{cd1}
+  \strng{fullhash}{cd1}
+  \field{sortinit}{C}
+  \field{title}{Data Warehouse Overview}
+  \verb{url}
+  \verb https://intellipaat.com/tutorial/data-warehouse-tutorial/data-warehouse
+  \verb -overview/
+  \endverb
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{oracle}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hurd}{H.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{labelyear}{2016}
+  \field{sortinit}{H}
+  \field{title}{Oracle Website}
+  \verb{url}
+  \verb https://www.oracle.com
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{thesis}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Leonard}{L.}%
+     {Edward~M.}{E.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LEM1}
+  \strng{fullhash}{LEM1}
+  \field{labelyear}{2009}
+  \field{sortinit}{L}
+  \field{title}{Design and Implementation of an Enterprise Data Warehouse}
+  \list{institution}{1}{%
+    {Marquette University}%
+  }
+  \field{type}{Master's Theses}
+  \field{year}{2009}
+\endentry
+
+\entry{sap}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McDermott}{M.}%
+     {Bill}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MB1}
+  \strng{fullhash}{MB1}
+  \field{labelyear}{2016}
+  \field{sortinit}{M}
+  \field{title}{SAP - Website}
+  \verb{url}
+  \verb http://go.sap.com/index.html
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{microsoft}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nadella}{N.}%
+     {Satya}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NS1}
+  \strng{fullhash}{NS1}
+  \field{labelyear}{2016}
+  \field{sortinit}{N}
+  \field{title}{Microsoft - Analysis Services}
+  \verb{url}
+  \verb https://technet.microsoft.com/en-us/library/bb522607
+  \endverb
+  \field{year}{2016}
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 \endentry
 
 \entry{coddrules}{book}{}
@@ -101,6 +198,7 @@
   \field{year}{1993}
 \endentry
 
+<<<<<<< HEAD
 \entry{keydata}{online}{}
   \name{author}{1}{}{%
     {{}%
@@ -120,6 +218,45 @@
   \endverb
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
+=======
+\entry{ibm}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rometty}{R.}%
+     {Virginia}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RV1}
+  \strng{fullhash}{RV1}
+  \field{labelyear}{2016}
+  \field{sortinit}{R}
+  \field{title}{Cognos TM1}
+  \verb{url}
+  \verb http://www-03.ibm.com/software/products/en/cognostm1
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{semi-additiv}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Whittles}{W.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WA1}
+  \strng{fullhash}{WA1}
+  \field{labelyear}{2008}
+  \field{sortinit}{W}
+  \field{title}{Semi-Additive Measures}
+  \verb{url}
+  \verb http://www.purplefrogsystems.com/blog/2008/04/semi-additive-measures-us
+  \verb ing-sql-server-standard/
+  \endverb
+  \field{year}{2008}
+>>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 \endentry
 
 \lossort
