@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.12)  2 MAY 2016 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.12)  3 MAY 2016 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,7 +651,7 @@ Class scrreprt Warning: Usage of package `fancyhdr' together
 (scrreprt)              I'd suggest to use 
 (scrreprt)              package `scrlayer-scrpage'.
 (scrreprt)              Nevertheless, using requested
-(scrreprt)              package `fancyhdr' on input line 28.
+(scrreprt)              package `fancyhdr' on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip49
@@ -1173,7 +1173,7 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 \glo@main@file=\write6
 \openout6 = `T2000.glo'.
 
-Package glossaries Info: Writing glossary file T2000.glo on input line 114.
+Package glossaries Info: Writing glossary file T2000.glo on input line 103.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
@@ -1188,30 +1188,30 @@ File: german.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./T2000.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux))
+(./T2000.aux (./Inhalt/titelseite.aux))
 \openout1 = `T2000.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 109.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 118.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 109.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1321,9 +1321,9 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'T2000.bbl' found.
 (./T2000.bbl)
-Package biblatex Info: Reference section=0 on input line 118.
-Package biblatex Info: Reference segment=0 on input line 118.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 121.
+Package biblatex Info: Reference section=0 on input line 109.
+Package biblatex Info: Reference segment=0 on input line 109.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 112.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1331,64 +1331,48 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 \openout2 = `Inhalt/titelseite.aux'.
 
 
-(./Inhalt/titelseite.tex <Bilder/logo_ibm.jpg, id=1, 86.9649pt x 44.3256pt>
-File: Bilder/logo_ibm.jpg Graphic file (type jpg)
-
-<use Bilder/logo_ibm.jpg>
-Package pdftex.def Info: Bilder/logo_ibm.jpg used on input line 9.
-(pdftex.def)             Requested size: 130.447pt x 66.48822pt.
- <Bilder/logo_dhbw.jpg, id=2, 86.9649pt x 44.3256pt>
+(./Inhalt/titelseite.tex <Bilder/logo_dhbw.jpg, id=1, 86.9649pt x 44.3256pt>
 File: Bilder/logo_dhbw.jpg Graphic file (type jpg)
 
 <use Bilder/logo_dhbw.jpg>
-Package pdftex.def Info: Bilder/logo_dhbw.jpg used on input line 11.
+Package pdftex.def Info: Bilder/logo_dhbw.jpg used on input line 10.
 (pdftex.def)             Requested size: 173.92935pt x 88.65097pt.
-
-Overfull \hbox (26.68887pt too wide) in paragraph at lines 8--12
-[]  []   [] 
- []
 
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <24.88> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 17.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 16.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 17.
+(Font)              using `T1/cmss/bx/n' instead on input line 16.
 
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 26.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 29.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 26.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 26.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 29.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 26.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 26.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 46.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
 
@@ -1397,52 +1381,20 @@ File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Bilde
-r/logo_ibm.jpg> <./Bilder/logo_dhbw.jpg>])
-\openout2 = `Inhalt/erklaerung.aux'.
-
- (./Inhalt/erklaerung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <12> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 16.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
-
- []
-
-) [1
-
-
-
-] (./T2000.toc)
+r/logo_dhbw.jpg>]) (./T2000.toc)
 \tf@toc=\write7
 \openout7 = `T2000.toc'.
 
 
 No file T2000.nls.
-[2
+[1
 
 
 ] (./T2000.lof)
 \tf@lof=\write8
 \openout8 = `T2000.lof'.
 
- [3
-
-] (./T2000.lot)
-\tf@lot=\write9
-\openout9 = `T2000.lot'.
-
- [4
+ [2
 
 ]
 Kapitel 1.
@@ -1467,20 +1419,24 @@ Class scrreprt Warning: \float@addtolists detected!
 Kapitel 2.
 [2
 
-]
+] [3] [4]
 Kapitel 3.
-[3
+[5
 
 ]
 Kapitel 4.
-[4
+[6
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 153.
+Kapitel 5.
+[7
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 159.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [5
+) [8
 
 ]
 
@@ -1488,7 +1444,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-(./T2000.aux (./Inhalt/titelseite.aux) (./Inhalt/erklaerung.aux))
+(./T2000.aux (./Inhalt/titelseite.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1497,34 +1453,29 @@ Package logreq Info: Writing requests to 'T2000.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18329 strings out of 493089
- 288748 string characters out of 6134842
- 730515 words of memory out of 5000000
- 21401 multiletter control sequences out of 15000+600000
- 27151 words of font info for 53 fonts, out of 8000000 for 9000
+ 18271 strings out of 493089
+ 287428 string characters out of 6134842
+ 732463 words of memory out of 5000000
+ 21362 multiletter control sequences out of 15000+600000
+ 23705 words of font info for 48 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 57i,9n,72p,1828b,1445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,72p,2241b,1445s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/urw/palatino/uplri8a.pfb>
-Output written on T2000.pdf (10 pages, 318276 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/urw/palatino/uplri8a.pfb>
+Output written on T2000.pdf (11 pages, 227857 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

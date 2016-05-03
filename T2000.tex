@@ -4,12 +4,9 @@ liststotoc, 					% Tabellen- und Abbildungsverzeichnis ins Inhaltsverzeichnis
 bibtotoc,						% Literaturverzeichnis ins Inhaltsverzeichnis aufnehmen
 titlepage, 						% Titlepage-Umgebung statt \maketitle
 headsepline, 					% horizontale Linie unter Kolumnentitel
-%abstracton,					% Überschrift beim Abstract einschalten, Abstract muss dazu in {abstract}-Umgebung stehen
-%DIV11,							% auskommentieren, um den Seitenspiegel zu vergrößern
 BCOR6mm,						% Bindekorrektur, die den Seitenspiegel um 6mm nach rechts verschiebt,
 openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 ]{scrreprt}			
-%\usepackage{utf8} 				% Dokument in utf8-Codierung schreiben und speichern
 \usepackage[utf8]{inputenc} 	% ermöglicht die direkte Eingabe von Umlauten
 \usepackage[paper=a4paper,left=30mm,right=30mm,top=25mm,bottom=25mm]{geometry} % seitenabstand
 \usepackage[ngerman]{babel} 	% deutsche Trennungsregeln und Übersetzung der festcodierten Überschriften
@@ -60,30 +57,23 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 }
 % -----------------------------------------------------------------------------------------------------------------
 % Zum Aktualisieren des Abkürzungsverzeichnisses bitte auf der Kommandozeile folgenden Befehl aufrufen :
-%  makeindex Bachelorarbeit.nlo -s nomencl.ist -o Bachelorarbeit.nls 
-%  
-
-% Schneller Compiler (bibtex, akürzungen, latex, pdf anzeigen im internen fenster (texmaker))
-% 	makeindex Bachelorarbeit.nlo -s nomencl.ist -o Bachelorarbeit.nls | bibtex %|pdflatex -synctex=1 -interaction=nonstopmode %.tex|"C:/Program Files (x86)/Adobe/Reader 11.0/Reader/AcroRd32.exe" %.pdf
-% 
-% einfach in Bachelorarbeit.tex ausführen -----------------------------------------------------------------------------------------------------------------
+%  index Bachelorarbeit.nlo -s nomencl.ist -o Bachelorarbeit.nls 
+% -----------------------------------------------------------------------------------------------------------------
 
 %usepackage float mit H für Bilder
 
 % Hier die persönlichen Daten eingeben:
 
-\newcommand{\titel}{Frontend Webentwicklung}
-\newcommand{\untertitel}{eines Internet of Things Showcases am Beispiel von Connected Cars}
-\newcommand{\arbeit}{Praxisbericht}
-\newcommand{\prufungvortext}{T2000}
-\newcommand{\prufung}{Bericht über PE 3/4} 
+\newcommand{\titel}{Business Intelligence Part 1}
+\newcommand{\untertitel}{OLAP and Data Warehousing}
+\newcommand{\arbeit}{Hausarbeit}
+\newcommand{\prufungvortext}{Datenbanken 4. Semester}
 \newcommand{\studiengang}{Angewandte Informatik}
-\newcommand{\autor}{Robin Schlenker}
-\newcommand{\matrikelnr}{2006895}
+\newcommand{\autor}{Robin Schlenker \& David Volz}
+\newcommand{\matrikelnr}{2006895, 5707482}
 \newcommand{\kurs}{TINF14A}
-\newcommand{\firma}{IBM Deutschland GmbH}
 \newcommand{\abgabe}{\today}
-\newcommand{\betreuerdhbw}{unbekannt}
+\newcommand{\betreuerdhbw}{Marcel Thoms}
 
 \newcommand{\jahr}{2015}			% für Angabe im Copyright-Vermerk der Titelseite
 
@@ -98,7 +88,7 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 % Definition der Kopf- und Fußzeilen
 \lhead{}								% Kopf links
 \chead{}								% Kopf mitte
-\rhead{\sffamily{Frontendentwicklung IoT ConnectedCars}}				% Kopf rechts
+\rhead{\sffamily{Business Intelligence part I}}				% Kopf rechts
 \lfoot{\prufungvortext}					% Fuß links
 \cfoot{\sffamily{\thepage}}				% Fuß mitte
 \rfoot{\sffamily{\autor}}				% Fuß rechts
@@ -108,10 +98,11 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 \newglossaryentry{ETL}
 {
   name=Extraction Transform and Load,
-  description={Process which desribes how the data from the databases is accessed, transformed and stored into the datawarehouse}
+  description={Process which describes how the data from the databases is accessed, transformed and stored into the datawarehouse}
 }
-
 \makeglossaries
+
+
 % -------------------------------------------------------------------------------------------
 %                     Beginn des Dokumenteninhalts
 % -------------------------------------------------------------------------------------------
@@ -124,7 +115,6 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 
 \include{Inhalt/titelseite} 				% erzeugt die Titelseite
 \pagenumbering{Roman}						% große, römische Seitenzahlen für Titelei	
-\include{Inhalt/erklaerung} 				% Einbinden der eidestattlichen Erklärung
 
 \singlespacing
 \tableofcontents							% Erzeugen des Inhalsverzeichnisses
@@ -132,7 +122,8 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 \printnomenclature[2.0cm]					% Erzeugen des Abkürzungsverzeichnisses
 \listoffigures 								% Erzeugen des Abbildungsverzeichnisses 
 
-\listoftables 								% Erzeugen des Tabellenverzeichnisses
+%\listoftables 								% Erzeugen des Tabellenverzeichnisses
+
 \pagebreak
 
 \pagenumbering{arabic}						% arabische Seitenzahlen für den Hauptteil
@@ -140,14 +131,29 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 \rmfamily
 
 \chapter{Introduction}
-
+Database-Management-Systems are fundamental to any kind of business. The possibility to store data in a structured way and to access it at any later time is the most obvious usecase for databases. It is essential to be able to access stored data at any time in the future. But since the sole, dump access of data is going to overwhelm the user with increasing storage-complexity, the need for an intelligent access of data is a must for larger database-applications. Imagine a Database which holds all countries of the world with their capitals and regions. This is an reasonable data-set. Most Database will have an extremely larger set of data-entries. But even in this case, the direct access of all data without filtering or intelligent accessing wouldn't scale in any affordable effort. If a user wants to see if a specific region belongs to a country, he wouldn't like to search through the whole data-set to find his region. For this reason, one implemented intelligent data-access from the begin of Database-Management. In a simple case as the previous, it seems to be sufficient to use the simple SQL-Language and it's predefined methods and syntax to retrieve the perfect result. This would scale perfectly for such a small databases. But, as mentioned before, the usual data which is gathered from larger companies is far more complex and thus needs far more tables, entries and accesses than our country-data. In times of globalization, many companies and therefore many databases will be distributed all over the world as well. And even if a company is only located at one location, the data should be distributed at different locations to reduce the threat of data-loss in case of local disasters. To bring such data to an affordable scale for usage, the world of Database-Management defined contexts like Data Warehouses or OLAP. This document will give an introduction to those terms to display the possibilities of modern DBMS for high performance data management. We will furthermore define some usecases to give the reader an more intense overview into the subject. The third part will compare the usual software products which are available on the market to implement those terms into a real database system. 
 \chapter{ Definition }\label{definition}
 \section{Data Warehouse}\label{dw}
+Nowadays companies, government agencies and other organizations all produce huge amount of data. All this data is distributed over different applications and their database management systems. In order to actual use, compare and process the data it needs to be accessible at one single location. %...labering continues...
+Data warehouse is a central storage, where data from many different applications is stored. Each application has it's own database but in order to analyse the data, it has to be accessible through one common access-point, the data warehouse. Since another large database which contains all data entries from the sub-databases wouldn't scale for larger applications, the data warehouse tries to store only transactional data to make it possible to analyse large amount of data without accessing every single tuple in the sub-databases. This is commonly used to retrieve for example daily logs of a specific database. The user is able to get the analysis through its periodic snapshots instead of manually analysing each tuple of interest in the actual SQL-Database. Especially for long-term analysis, this kind of snapshot is extremely performant since it is only necessary to view on e.g. the snapshots of 100 days instead of taking the average from every transaction within those 100 days.
+From a conceptional point of view, a data warehouse is build in a star-like formation. The 'inner star' consists of the gathered meta-data for example the previous mentioned periodic snapshots. This is also the position, where the user will post his requests. The 'outer star' in this structure consists of the storage of the raw data so that it is always accessible for the user as well. This enables the access to every single dataset if the meta-data isn't sufficient for the user-request.
+Data warehouses define those meta-data in the so-called fact tables. The next section will explain this concept in greater detail.
+\subsection{Fact tables}\label{factTables}
+A fact table is the kind of storage-structure where data warehouses store their meta-data. It is located in the innermost position of the star-wise data warehouse structure. A fact can contain periodical data over specific dataset from the outer dimensions. Therefore, each fact contains of basically 2 different informations being the foreign key as a reference of the source of the data and the 'fact-column' which describes the collected data for example the average of the source-dataset over a specific time-interval. There are 3 different kind of measurement-types for facts in a data-warehouse.
+\subsubsection{Additive Measurement}
+Additive measurement is used, when the data which is stored in the fact table can be used over all dimensions of the data warehouse. For example if it is possible to add the amount of a sold product to a total amount of products when changing for example the time-dimension. 
+\subsubsection{Non-additive Measurement}
+The term non-additive is used to describe meta-data which is extinct to a specific dimension in the warehouse. In other words, it describes measurement methods which cannot be made over all dimensions since it is a more specific information. One example for such data would be the average temperature of a heat-sensor in a room. Since the measured heat of at one specific time shouldn't be simply added up with the one before or after. For heat-values, an average has to be measured instead of the summed up values of all measurements.
+\subsubsection{Semi-additive Measurement}
+The last measurement-type describes a mixture of the previous defined types. A measurement can be called semi-additive if there is not only one dimension which holds the information and the type isn't additive. So the data is not unique and not in every dimension. An example would be the stock level of any company since the measured values of one product can be added to the ones from another product to get the count of all products but they could also be viewed at as one-dimensional data-set which changes when products are sold or bought.
+\subsubsection{Types of fact tables}
+These measurement-types can now be used for different types of fact-tables. The types can be used as a 'rule-of-thumb' which measurement types could be found in the fact tables. The Two most frequently used types are cumulative and snapshot. Cumulative fact tables describe what happened over a given period of time. It mostly consists of additive data for example the amount of sold onions during each week. The second fact table type, snapshot, is used to see how the data was gathered at a specific point in time. Whilst cumulative fact tables consists mostly of additive data, the snapshots usually contain non-additive and semi-additive datasets. An example would be the snapshot of a stock at the end of a month. Where each entry describes the trend of selling a specific product.
 \section{OLAP}\label{olap}
 
-\chapter{Use cases}\label{usecases}
+\chapter{Usecases}\label{usecases}
 \section{Business Analysis}\label{ba}
 \chapter{Software products}\label{software}
+\chapter{Summary}
   
 % ---------------------------- Literaturverzeichnis ----------------------------------------------
 \printbibliography
