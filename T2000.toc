@@ -38,22 +38,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Software products}{10}
 \defcounter {refsection}{0}\relax 
-<<<<<<< HEAD
-\contentsline {section}{\numberline {4.1}Oracle - Essbase}{6}
+\contentsline {section}{\numberline {4.1}Oracle - Essbase}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Microsoft - Analysis Services}{6}
+\contentsline {section}{\numberline {4.2}Microsoft - Analysis Services}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}SAP - NetWeaver}{6}
+\contentsline {section}{\numberline {4.3}SAP - NetWeaver}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}IBM - Cognos}{7}
+\contentsline {section}{\numberline {4.4}IBM - Cognos}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Comparison}{7}
+\contentsline {section}{\numberline {4.5}Comparison}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Summary}{8}
+\contentsline {chapter}{\numberline {5}Summary}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{9}
-=======
-\contentsline {chapter}{\numberline {5}Summary}{11}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{12}
->>>>>>> f3861c98498319cf2945ced34a8fb8f80ae5ac5d
+\contentsline {chapter}{\nonumberline Literatur}{13}

@@ -16,6 +16,80 @@
   {}
 \endgroup
 
+\entry{wrembel}{book}{}
+  \list{publisher}{1}{%
+    {Robert Wremble, Christian Koncilia}%
+  }
+  \field{labelyear}{2007}
+  \field{sortinit}{D}
+  \field{title}{Data Warehouses and OLAP: Concepts, Architectures, and
+  Solutions}
+  \field{year}{2007}
+\endentry
+
+\entry{slideshare}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehene}{L.}%
+     {Cosmin}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{2013}
+  \field{sortinit}{L}
+  \field{title}{Real-time “OLAP” for Big Data}
+  \verb{url}
+  \verb http://de.slideshare.net/clehene/realtime-olap-for-big-data-use-cases-b
+  \verb igdataro-2013/11-SaasBase_Ingestion_Processing_Indexing_Querying
+  \endverb
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{leipertDiplom}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Leipert}{L.}%
+     {Ralph}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LR1}
+  \strng{fullhash}{LR1}
+  \field{labelyear}{1998}
+  \field{sortinit}{L}
+  \field{title}{Analytische Informationssysteme als Basis des Risikomanagement
+  der Unternehmung}
+  \list{institution}{1}{%
+    {University Augsburg}%
+  }
+  \field{type}{mathesis}
+  \field{year}{1998}
+\endentry
+
+\entry{tecchannel}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Manhart}{M.}%
+     {Dr.~Klaus}{D.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MDK1}
+  \strng{fullhash}{MDK1}
+  \field{labelyear}{2008}
+  \field{sortinit}{M}
+  \field{title}{BI-Methoden}
+  \verb{url}
+  \verb http://www.tecchannel.de/server/sql/1751285/bi_methoden_teil_1_ad_hoc_a
+  \verb nalysen_mit_olap/index9.html
+  \endverb
+  \field{month}{04}
+  \field{year}{2008}
+\endentry
+
 \entry{coddrules}{book}{}
   \list{publisher}{1}{%
     {Codd \& Date Inc}%
@@ -25,6 +99,27 @@
   \field{title}{Providing OLAP (On-line Analytical Processing) to
   User-Analysts: An IT Mandate}
   \field{year}{1993}
+\endentry
+
+\entry{keydata}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {unknown}{u.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{u1}
+  \strng{fullhash}{u1}
+  \field{labelyear}{2016}
+  \field{sortinit}{U}
+  \field{title}{Slowly changing dimensions}
+  \verb{url}
+  \verb https://www.1keydata.com/datawarehousing/slowly-changing-dimensions.htm
+  \verb l
+  \endverb
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \lossort
