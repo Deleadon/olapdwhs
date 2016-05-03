@@ -153,6 +153,18 @@ These measurement-types can now be used for different types of fact-tables. The 
 \chapter{Usecases}\label{usecases}
 \section{Business Analysis}\label{ba}
 \chapter{Software products}\label{software}
+\section{Oracle - Essbase}\label{Oracle}
+As E.F.Codd wrote his 12 Rules in 1993 he often referenced the Essbase database, which was developed in 1992 from Arbor Software. A few years later it was discovered, that Codd was paid by Arbor Software, to promote their product with his 12 Rules.\\
+Later, in 1998 Arbor Software merged with Hyperion Software. Which then continued the development of the Essbase database. Even later, in 2007, Hyperion Software was bought and Essbase got another publisher. This time Oracle bought Essbase and sells it as Oracle Essbase. Oracle tried to rename it to Hyperion, but the community never really accepted it and always references it as Essbase.\\
+Essbase comes from Spread Sheet Database and is a multidimensional database management system. And it implements MOLAP and HOLAP
+\section{Microsoft - Analysis Services}\label{microsoft}
+The most wide spread OLAP software is Microsoft Analysis Services. The reason why it is so common is because it is integrated within the Microsoft SQL server. Analysis Services is able to process both multidimensional and tabular databases. Therefore it is able to do MOLAP, ROLAP and HOLAP. Since it is based part of the Microsoft SQL server, the Data Manipulation Language is partly SQL, but there are also other query languages implemented, like MDX, LINQ and DMX. The Data Definition Language is XML based.
+\section{SAP - NetWeaver}\label{SAP}
+SAP has developed a BI Solution too. It is part of the NetWeaver software portfolio. It is based on the SAP NetWeaver application server. And it was the first complete interoperable web based platform from SAP which can be used to develop non-SAP products. Contrary to Microsoft Analysis Service, it does not implements HOLAP but MOLAP as well as ROLAP
+\section{IBM - Cognos}\label{IBM}
+IBM, as well as many other software companies, bought an OLAP solution, the Applix TM1 (formerly Sinper TM/1). It only implements MOLAP.
+\section{Comparison}\label{comparison}
+The only BI Solution, which is described above, that implements all 3 storage modes is Microsoft Analysis Services. Therefore it is the most flexible solution in that regard. However, depending on the implementation the other solutions might be a better option. Especially, since Microsofts solution has 2 Downsides. The first 1 being integrated into the SQL server, which forces you to use a specific Database. The other one being only useable on Windows, since it does not support Linux or UNIX. 
 \chapter{Summary}
   
 % ---------------------------- Literaturverzeichnis ----------------------------------------------
