@@ -192,7 +192,11 @@ The last important function for OLAP-Analytics is called Drill-Through. If the a
 The data which is stored by the datawarehouse has to be in pre-specified storage modes to enable the usage of OLAP-Software. The OLAP-System differentiates between the heterogeneous modes ROLAP and MOLAP and the hybrid HOLAP storage. These differences can be seen in the way, the Data warehouse stores the most exact data. While ROLAP, which stands for Relational OLAP holds it's data in classical relational schemas, namely SQL-Schemas, MOLAP is designed to use Multidimensional (that's where the M in MOLAP comes from). The advantage of ROLAP is it's stability when it comes to larger datasets. It is stable as long as the storage volume is sufficient no matter how many entries each dataset has. Against this huge advantage, MOLAP is capable of handling large datasets in a more flexible and faster way than ROLAP. So it is less stable for larger data, but more flexible and has a higher performance when it comes to the actual requests.
 Since both advantages are not easily to separate for a usecase, the HOLAP storage mode was designed. HOLAP is the possibility to use ROLAP and MOLAP whichever fits better to the related dataset. The disadvantage is of cause the higher complexity which leads to less performance than MOLAP and less stability than ROLAP in the total outcome.
 \chapter{Usecases}\label{usecases}
-\section{Business Analysis}\label{ba}
+\section{Data-Warehousing}\label{ucdw}
+\subsection{Reporting}\label{ucreport}
+\subsection{Data Mining}\label{ucmining}
+\section{OLAP}\label{ucolap}
+\subsection{Business Analysis}\label{ba}
 \chapter{Software products}\label{software}
 \section{Oracle - Essbase}\label{Oracle}
 As E.F.Codd wrote his 12 Rules in 1993 he often referenced the Essbase database, which was developed in 1992 from Arbor Software. A few years later it was discovered, that Codd was paid by Arbor Software, to promote their product with his 12 Rules.\\
