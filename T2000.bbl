@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.4 $
+% $ biblatex version 2.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,7 +16,25 @@
   {}
 \endgroup
 
-<<<<<<< HEAD
+\entry{intellipaat}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Chittora}{C.}%
+     {Diwakar}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CD1}
+  \strng{fullhash}{CD1}
+  \field{sortinit}{C}
+  \field{title}{Data Warehouse Overview}
+  \verb{url}
+  \verb https://intellipaat.com/tutorial/data-warehouse-tutorial/data-warehouse
+  \verb -overview/
+  \endverb
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{wrembel}{book}{}
   \list{publisher}{1}{%
     {Robert Wremble, Christian Koncilia}%
@@ -26,6 +44,25 @@
   \field{title}{Data Warehouses and OLAP: Concepts, Architectures, and
   Solutions}
   \field{year}{2007}
+\endentry
+
+\entry{oracle}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hurd}{H.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{labelyear}{2016}
+  \field{sortinit}{H}
+  \field{title}{Oracle Website}
+  \verb{url}
+  \verb https://www.oracle.com
+  \endverb
+  \field{year}{2016}
 \endentry
 
 \entry{slideshare}{online}{}
@@ -70,6 +107,26 @@
   \field{year}{1998}
 \endentry
 
+\entry{thesis}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Leonard}{L.}%
+     {Edward~M.}{E.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LEM1}
+  \strng{fullhash}{LEM1}
+  \field{labelyear}{2009}
+  \field{sortinit}{L}
+  \field{title}{Design and Implementation of an Enterprise Data Warehouse}
+  \list{institution}{1}{%
+    {Marquette University}%
+  }
+  \field{type}{Master's Theses}
+  \field{year}{2009}
+\endentry
+
 \entry{tecchannel}{online}{}
   \name{author}{1}{}{%
     {{}%
@@ -89,63 +146,6 @@
   \endverb
   \field{month}{04}
   \field{year}{2008}
-=======
-\entry{intellipaat}{online}{}
-  \name{author}{1}{}{%
-    {{}%
-     {chittora}{c.}%
-     {diwakar}{d.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{cd1}
-  \strng{fullhash}{cd1}
-  \field{sortinit}{C}
-  \field{title}{Data Warehouse Overview}
-  \verb{url}
-  \verb https://intellipaat.com/tutorial/data-warehouse-tutorial/data-warehouse
-  \verb -overview/
-  \endverb
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{oracle}{online}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Hurd}{H.}%
-     {Mark}{M.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HM1}
-  \strng{fullhash}{HM1}
-  \field{labelyear}{2016}
-  \field{sortinit}{H}
-  \field{title}{Oracle Website}
-  \verb{url}
-  \verb https://www.oracle.com
-  \endverb
-  \field{year}{2016}
-\endentry
-
-\entry{thesis}{thesis}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Leonard}{L.}%
-     {Edward~M.}{E.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LEM1}
-  \strng{fullhash}{LEM1}
-  \field{labelyear}{2009}
-  \field{sortinit}{L}
-  \field{title}{Design and Implementation of an Enterprise Data Warehouse}
-  \list{institution}{1}{%
-    {Marquette University}%
-  }
-  \field{type}{Master's Theses}
-  \field{year}{2009}
 \endentry
 
 \entry{sap}{online}{}
@@ -184,7 +184,6 @@
   \verb https://technet.microsoft.com/en-us/library/bb522607
   \endverb
   \field{year}{2016}
->>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 \endentry
 
 \entry{coddrules}{book}{}
@@ -198,7 +197,25 @@
   \field{year}{1993}
 \endentry
 
-<<<<<<< HEAD
+\entry{ibm}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rometty}{R.}%
+     {Virginia}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RV1}
+  \strng{fullhash}{RV1}
+  \field{labelyear}{2016}
+  \field{sortinit}{R}
+  \field{title}{Cognos TM1}
+  \verb{url}
+  \verb http://www-03.ibm.com/software/products/en/cognostm1
+  \endverb
+  \field{year}{2016}
+\endentry
+
 \entry{keydata}{online}{}
   \name{author}{1}{}{%
     {{}%
@@ -218,24 +235,6 @@
   \endverb
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
-=======
-\entry{ibm}{online}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Rometty}{R.}%
-     {Virginia}{V.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RV1}
-  \strng{fullhash}{RV1}
-  \field{labelyear}{2016}
-  \field{sortinit}{R}
-  \field{title}{Cognos TM1}
-  \verb{url}
-  \verb http://www-03.ibm.com/software/products/en/cognostm1
-  \endverb
-  \field{year}{2016}
 \endentry
 
 \entry{semi-additiv}{online}{}
@@ -256,7 +255,6 @@
   \verb ing-sql-server-standard/
   \endverb
   \field{year}{2008}
->>>>>>> b5e8c2fc7c7d9b3a1899f3ce253f471441ceab46
 \endentry
 
 \lossort
