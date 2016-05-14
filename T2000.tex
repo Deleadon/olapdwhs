@@ -1,12 +1,12 @@
 % Präambel
-\documentclass[12pt,a4paper,oneside, 
+\documentclass[12pt,a4paper,oneside,
 liststotoc, 					% Tabellen- und Abbildungsverzeichnis ins Inhaltsverzeichnis
 bibtotoc,						% Literaturverzeichnis ins Inhaltsverzeichnis aufnehmen
 titlepage, 						% Titlepage-Umgebung statt \maketitle
 headsepline, 					% horizontale Linie unter Kolumnentitel
 BCOR6mm,						% Bindekorrektur, die den Seitenspiegel um 6mm nach rechts verschiebt,
 openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
-]{scrreprt}			
+]{scrreprt}
 \usepackage[utf8]{inputenc} 	% ermöglicht die direkte Eingabe von Umlauten
 \usepackage[paper=a4paper,left=30mm,right=30mm,top=25mm,bottom=25mm]{geometry} % seitenabstand
 \usepackage[ngerman]{babel} 	% deutsche Trennungsregeln und Übersetzung der festcodierten Überschriften
@@ -57,7 +57,7 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 }
 % -----------------------------------------------------------------------------------------------------------------
 % Zum Aktualisieren des Abkürzungsverzeichnisses bitte auf der Kommandozeile folgenden Befehl aufrufen :
-%  index Bachelorarbeit.nlo -s nomencl.ist -o Bachelorarbeit.nls 
+%  index Bachelorarbeit.nlo -s nomencl.ist -o Bachelorarbeit.nls
 % -----------------------------------------------------------------------------------------------------------------
 
 %usepackage float mit H für Bilder
@@ -115,34 +115,34 @@ openany,							% Unterdrückung von leeren Seiten nach Chapter-Ende
 % ------------------------------ Titelei -----------------------------------------------------
 
 \include{Inhalt/titelseite} 				% erzeugt die Titelseite
-\pagenumbering{Roman}						% große, römische Seitenzahlen für Titelei	
+\pagenumbering{Roman}						% große, römische Seitenzahlen für Titelei
 
 \singlespacing
 \tableofcontents							% Erzeugen des Inhalsverzeichnisses
 \onehalfspacing
 \printnomenclature[2.0cm]					% Erzeugen des Abkürzungsverzeichnisses
-%\listoffigures 								% Erzeugen des Abbildungsverzeichnisses 
+%\listoffigures 								% Erzeugen des Abbildungsverzeichnisses
 
 %\listoftables 								% Erzeugen des Tabellenverzeichnisses
 
 \pagebreak
 
 \pagenumbering{arabic}						% arabische Seitenzahlen für den Hauptteil
-\pagestyle{fancy}					
+\pagestyle{fancy}
 \rmfamily
 
 \chapter{Introduction}
-Database-Management-Systems are fundamental to any kind of business. The possibility to store data in a structured way and to access it at any later time is the most obvious usecase for databases. It is essential to be able to access stored data at any time in the future. But since the sole, dump access of data is going to overwhelm the user with increasing storage-complexity, the need for an intelligent access of data is a must for larger database-applications. Imagine a Database which holds all countries of the world with their capitals and regions. This is an reasonable data-set. Most Database will have an extremely larger set of data-entries. But even in this case, the direct access of all data without filtering or intelligent accessing wouldn't scale in any affordable effort. If a user wants to see if a specific region belongs to a country, he wouldn't like to search through the whole data-set to find his region. For this reason, one implemented intelligent data-access from the begin of Database-Management. In a simple case as the previous, it seems to be sufficient to use the simple SQL-Language and it's predefined methods and syntax to retrieve the perfect result. This would scale perfectly for such a small databases. But, as mentioned before, the usual data which is gathered from larger companies is far more complex and thus needs far more tables, entries and accesses than our country-data. In times of globalization, many companies and therefore many databases will be distributed all over the world as well. And even if a company is only located at one location, the data should be distributed at different locations to reduce the threat of data-loss in case of local disasters. To bring such data to an affordable scale for usage, the world of Database-Management defined contexts like Data Warehouses or OLAP. This document will give an introduction to those terms to display the possibilities of modern DBMS for high performance data management. We will furthermore define some usecases to give the reader an more intense overview into the subject. The third part will compare the usual software products which are available on the market to implement those terms into a real database system. 
+Database-Management-Systems are fundamental to any kind of business. The possibility to store data in a structured way and to access it at any later time is the most obvious usecase for databases. It is essential to be able to access stored data at any time in the future. But since the sole, dump access of data is going to overwhelm the user with increasing storage-complexity, the need for an intelligent access of data is a must for larger database-applications. Imagine a Database which holds all countries of the world with their capitals and regions. This is an reasonable data-set. Most Database will have an extremely larger set of data-entries. But even in this case, the direct access of all data without filtering or intelligent accessing wouldn't scale in any affordable effort. If a user wants to see if a specific region belongs to a country, he wouldn't like to search through the whole data-set to find his region. For this reason, one implemented intelligent data-access from the begin of Database-Management. In a simple case as the previous, it seems to be sufficient to use the simple SQL-Language and it's predefined methods and syntax to retrieve the perfect result. This would scale perfectly for such a small databases. But, as mentioned before, the usual data which is gathered from larger companies is far more complex and thus needs far more tables, entries and accesses than our country-data. In times of globalization, many companies and therefore many databases will be distributed all over the world as well. And even if a company is only located at one location, the data should be distributed at different locations to reduce the threat of data-loss in case of local disasters. To bring such data to an affordable scale for usage, the world of Database-Management defined contexts like Data Warehouses or OLAP. This document will give an introduction to those terms to display the possibilities of modern DBMS for high performance data management. We will furthermore define some usecases to give the reader an more intense overview into the subject. The third part will compare the usual software products which are available on the market to implement those terms into a real database system.
 \chapter{ Definition }\label{definition}
 \section{Data Warehouse}\label{dw}
-Nowadays companies, government agencies and other organizations all produce huge amount of data. All this data is distributed over different applications and their database management systems. In order to actual use, compare and process the data it needs to be accessible at one single location. 
+Nowadays companies, government agencies and other organizations all produce huge amount of data. All this data is distributed over different applications and their database management systems. In order to actual use, compare and process the data it needs to be accessible at one single location.
 For this reason, Data warehouse was created, which is a central storage, where data from many different applications is stored. Each application has it's own database but in order to analyse the data, it has to be accessible through one common access-point, the data warehouse. Since another large database which contains all data entries from the sub-databases wouldn't scale for larger applications, the data warehouse tries to store transactional data to make it possible to analyse large amount of data without accessing every single tuple in the sub-databases. This is commonly used to retrieve for example daily logs of a specific database. The user is able to get the analysis through its periodic snapshots instead of manually analysing each tuple of interest in the actual SQL-Database. Especially for long-term analysis, this kind of snapshot is extremely performant since it is only necessary to view on e.g. the snapshots of 100 days instead of taking the average from every transaction within those 100 days.
 From a conceptional point of view, a data warehouse is build in a star-like formation. The 'inner star' consists of the gathered meta-data for example the previous mentioned periodic snapshots. This is also the position, where the user will post his requests. The 'outer star' in this structure consists of the storage of the raw data so that it is always accessible for the user as well. This enables the access to every single dataset if the meta-data isn't sufficient for the user-request.
 Data warehouses defines this meta-data in the so-called fact tables. The next section will explain this concept in greater detail.
 \subsection{Fact tables}\label{factTables}
 A fact table is the kind of storage-structure where data warehouses store their meta-data. It is located in the innermost position of the star-wise data warehouse structure. A fact can contain periodical data over specific dataset from the outer dimensions. Therefore, each fact consists out of basically 2 different informations being the foreign key as a reference of the source of the data and the 'fact-column' which describes the collected data for example the average of the source-dataset over a specific time-interval. There are 3 different kind of measurement-types for facts in a data-warehouse.
 \subsubsection{Additive Measurement}
-Additive measurement is used, when the data which is stored in the fact table can be used over all dimensions of the data warehouse. For example if it is possible to add the amount of a sold product to a total amount of products when changing for example the time-dimension. 
+Additive measurement is used, when the data which is stored in the fact table can be used over all dimensions of the data warehouse. For example if it is possible to add the amount of a sold product to a total amount of products when changing for example the time-dimension.
 \subsubsection{Non-additive Measurement}
 The term non-additive is used to describe meta-data which is extinct to a specific dimension in the warehouse. In other words, it describes measurement methods which cannot be made over all dimensions since it is a more specific information. One example for such data would be the average temperature of a heat-sensor in a room. Since the measured heat of at one specific time shouldn't be simply added up with the one before or after. For heat-values, an average has to be measured instead of the summed up values of all measurements.
 \subsubsection{Semi-additive Measurement}
@@ -154,10 +154,10 @@ For readability and comprehensibility purposes, the following chapter will use t
 OLAP, which stands for Online Analytical Processing, is a high performance analytic query tool for very large datasets. It is designed to work with multidimensional databases and works perfect with a data warehouse structure as described in chapter \ref{dw}. Online Analytical Processing was initially built to be able to drive large analytical research and generate information out of it to support business decisions. It interactive Design implementation tries to make the data as presentable and usable as possible even for user without intense IT-Background knowledge. Since OLAP needs multiple dimensions, it is possible to abstract the data from the data warehouse to an more intuitive level. To illustrate this behaviour, check again the example of a database with all planets, their countries, regions and cities in our universe. This is a slightly more complex situation than in the introduction where we only looked at our earth's regions. It would be difficult for anyone, to immediately find the most specific information over regions or cities if he would only be confronted with the pure data. OLAP now defines the dimensions from it's underlying data warehouse which could be the previous mentioned parameter planets, countries and so on. The standardized structure how OLAP is organized is called Hypercube. A Hypercube is the representation of the usually 2-dimensional relational data into a 3-dimensional cube-wise structure. The different dimensions and abstractions can be modelled as separate levels of the cube. To be able to handle the levels of the Hypercube, they have to be related to each other. In a more complex system, several Hypercubes will be present to represent disjoint datasets in their own abstraction-levels.
 \subsection{Codd Requirements}\label{codd}
 The official requirements to any OLAP-system where defined by Edgar F. Codd back in 1993 A.D. The following 12 Rules are the principles after which every OLAP-based Analytic should be formed. (vgl. \footcite{coddrules}).
-\minisec{Multi-dimensional conceptual view} 
+\minisec{Multi-dimensional conceptual view}
 
 The data set of the underlying data warehouse has to be presentable in a multi-dimensional pattern. This ensures the possibility for OLAP to structure the data into it's Hypercube(s). The multi-dimensional structure enables the intuitive representation and manipulation of the data.
-\minisec{Transparency} 
+\minisec{Transparency}
 
 The processes from OLAP should be all time transparent to the user. This ensures the backtracing of failed analytics as well as the security for the user, that the exact analysis was made. The other part of this rule states, that OLAP should be implementable in every type of system which holds the preconditions for OLAP regardless of which type of analysis was made before / after. This ensures compatibility to many kind of Data Warehouses.
 \minisec{Accessibility}
@@ -192,8 +192,12 @@ The last important function for OLAP-Analytics is called Drill-Through. If the a
 The data which is stored by the datawarehouse has to be in pre-specified storage modes to enable the usage of OLAP-Software. The OLAP-System differentiates between the heterogeneous modes ROLAP and MOLAP and the hybrid HOLAP storage. These differences can be seen in the way, the Data warehouse stores the most exact data. While ROLAP, which stands for Relational OLAP holds it's data in classical relational schemas, namely SQL-Schemas, MOLAP is designed to use Multidimensional (that's where the M in MOLAP comes from). The advantage of ROLAP is it's stability when it comes to larger datasets. It is stable as long as the storage volume is sufficient no matter how many entries each dataset has. Against this huge advantage, MOLAP is capable of handling large datasets in a more flexible and faster way than ROLAP. So it is less stable for larger data, but more flexible and has a higher performance when it comes to the actual requests.
 Since both advantages are not easily to separate for a usecase, the HOLAP storage mode was designed. HOLAP is the possibility to use ROLAP and MOLAP whichever fits better to the related dataset. The disadvantage is of cause the higher complexity which leads to less performance than MOLAP and less stability than ROLAP in the total outcome.
 \chapter{Usecases}\label{usecases}
-\section{Business Analysis}\label{ba}
-The business analysis provided by OLAP are obviously designed to fit business needs. OLAP-software is used to support business decisions in all level of management. If, for example, a specific product isn't increasing in its sales as it was before, special analysis can help to find such products, check the sources of the occurrence and provide suggestions to circumvent those in the future. The ability to scale in different dimensions independently from their items enables the management to get an overview over the whole company or on only a small subset of it. OLAP could show in the previous example, that only the one specific product is trailing in sales and not the whole company vis versa. 
+\section{Data-Warehousing}\label{ucdw}
+\subsection{Reporting}\label{ucreport}
+\subsection{Data Mining}\label{ucmining}
+\section{OLAP}\label{ucolap}
+\subsection{Business Analysis}\label{ba}
+The business analysis provided by OLAP are obviously designed to fit business needs. OLAP-software is used to support business decisions in all level of management. If, for example, a specific product isn't increasing in its sales as it was before, special analysis can help to find such products, check the sources of the occurrence and provide suggestions to circumvent those in the future. The ability to scale in different dimensions independently from their items enables the management to get an overview over the whole company or on only a small subset of it. OLAP could show in the previous example, that only the one specific product is trailing in sales and not the whole company vis versa.
 \chapter{Software products}\label{software}
 \section{Oracle - Essbase}\label{Oracle}
 As E.F.Codd wrote his 12 Rules in 1993 he often referenced the Essbase database, which was developed in 1992 from Arbor Software. A few years later it was discovered, that Codd was paid by Arbor Software, to promote their product with his 12 Rules.\\
@@ -206,9 +210,9 @@ SAP has developed a BI Solution too. It is part of the NetWeaver software portfo
 \section{IBM - Cognos}\label{IBM}
 IBM, as well as many other software companies, bought an OLAP solution, the Applix TM1 (formerly Sinper TM/1). It only implements MOLAP.
 \section{Comparison}\label{comparison}
-The only BI Solution, which is described above, that implements all 3 storage modes is Microsoft Analysis Services. Therefore it is the most flexible solution in that regard. However, depending on the implementation the other solutions might be a better option. Especially, since Microsofts solution has 2 Downsides. The first 1 being integrated into the SQL server, which forces you to use a specific Database. The other one being only useable on Windows, since it does not support Linux or UNIX. 
+The only BI Solution, which is described above, that implements all 3 storage modes is Microsoft Analysis Services. Therefore it is the most flexible solution in that regard. However, depending on the implementation the other solutions might be a better option. Especially, since Microsofts solution has 2 Downsides. The first 1 being integrated into the SQL server, which forces you to use a specific Database. The other one being only useable on Windows, since it does not support Linux or UNIX.
 \chapter{Summary}
-  
+
 % ---------------------------- Literaturverzeichnis ----------------------------------------------
 \printbibliography
 % ------------------------------- Anhang ---------------------------------------------------------
