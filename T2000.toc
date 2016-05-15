@@ -34,7 +34,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Usecases}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Business Analysis}{9}
+\contentsline {section}{\numberline {3.1}Data-Warehousing}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Reporting}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Data Mining}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}OLAP}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Business Analysis}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Software products}{10}
 \defcounter {refsection}{0}\relax 
